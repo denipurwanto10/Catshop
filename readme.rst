@@ -1,71 +1,51 @@
-###################
-What is CodeIgniter
-###################
+# 🐱 CatShop
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Sistem Informasi Toko Kucing Online  
+📍 Tugas Mata Kuliah - Pemrograman Web Framework
 
-*******************
-Release Information
-*******************
+![CodeIgniter](https://img.shields.io/badge/framework-CodeIgniter%203-red.svg)
+![PHP](https://img.shields.io/badge/language-PHP-blue.svg)
+![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)
+![MySQL](https://img.shields.io/badge/database-MySQL-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+---
 
-**************************
-Changelog and New Features
-**************************
+## 📌 Deskripsi Proyek
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+**CatShop** adalah aplikasi web toko kucing yang dibangun menggunakan **CodeIgniter 3**, sebuah framework PHP ringan dan powerful.  
+Aplikasi ini memfasilitasi pengelolaan produk, kategori, data pembeli, serta pemrosesan pemesanan secara online.
 
-*******************
-Server Requirements
-*******************
+Dikembangkan sebagai tugas mata kuliah, proyek ini menunjukkan implementasi arsitektur **MVC (Model-View-Controller)** dalam membangun sistem informasi berbasis web.
 
-PHP version 5.6 or newer is recommended.
+---
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+## ✨ Fitur Utama
 
-************
-Installation
-************
+- 🐈 **Manajemen Produk**: Tambah, edit, dan hapus data produk kucing atau perlengkapannya
+- 🛒 **Keranjang Belanja (Cart)**: Sistem pemesanan sederhana berbasis session
+- 👤 **Manajemen Pembeli**: Data pelanggan dan transaksi yang tersimpan
+- 🧾 **Faktur Sederhana**: Menampilkan ringkasan transaksi pembelian
+- 🔐 **Login Admin**: Akses pengelolaan backend dengan autentikasi
+- 📱 **Desain Responsif**: Menggunakan Bootstrap untuk tampilan yang ramah di berbagai perangkat
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+---
 
-*******
-License
-*******
+## 🛠️ Teknologi yang Digunakan
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+| Teknologi      | Deskripsi                              |
+|----------------|------------------------------------------|
+| PHP            | Bahasa pemrograman server-side utama     |
+| CodeIgniter 3  | Framework PHP ringan dengan pola MVC     |
+| MySQL          | Sistem manajemen basis data relasional   |
+| Bootstrap      | Framework CSS untuk UI responsif         |
+| JavaScript     | Interaktivitas antarmuka pengguna         |
+| jQuery         | Manipulasi DOM & AJAX (opsional)          |
 
-*********
-Resources
-*********
+---
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+## 📦 Instalasi
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+1. **Clone atau Unduh Project**
+   ```bash
+   git clone https://github.com/username/catshop.git
