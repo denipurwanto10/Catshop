@@ -1,0 +1,15 @@
+body {
+    background-image: url('gambar2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box {
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    background-color: #343a40;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 10px;
+}
